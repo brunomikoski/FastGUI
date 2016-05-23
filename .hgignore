@@ -1,0 +1,5 @@
+syntax: glob
+FastGUI/Library/
+FastGUI/Temp/
+FastGUI/_ReSharper.FastGUI/
+*.orig

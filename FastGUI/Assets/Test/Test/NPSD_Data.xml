@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npsd DocWidth="1920" DocHeight="1080">
+<Layer type='SPRITE'> 
+        <ObjectName>Background</ObjectName>
+        <ParentName></ParentName>
+        <X>960</X>
+        <Y>540</Y>
+        <ImagePath>Background.png</ImagePath>
+        <LayerID>51</LayerID>
+        <LayerWidth>1920</LayerWidth>
+        <LayerHeight>1080</LayerHeight>
+</Layer> 
+<Layer type='CHECKBOX'> 
+        <ObjectName>ckb_TestCheckbox</ObjectName>
+        <ParentName></ParentName>
+        <X>145.5</X>
+        <Y>113</Y>
+        <LayerID>3</LayerID>
+        <ImageStates> 
+                <checkmark>ckb_TestCheckbox_checkmark.png</checkmark>
+                <background>ckb_TestCheckbox_background.png</background>
+        </ImageStates>
+</Layer> 
+<Layer type='SLIDER'> 
+        <ObjectName>sld_SliderTest</ObjectName>
+        <ParentName></ParentName>
+        <X>962</X>
+        <Y>403.5</Y>
+        <LayerID>11</LayerID>
+        <ImageStates> 
+                <thumb>sld_SliderTest_thumb.png</thumb>
+                <foreground>sld_SliderTest_foreground.png</foreground>
+                <background>sld_SliderTest_background.png</background>
+        </ImageStates>
+</Layer> 
+<Layer type='PROGRESSBAR'> 
+        <ObjectName>pgsb_ProgressbarTest</ObjectName>
+        <ParentName></ParentName>
+        <X>962</X>
+        <Y>730.5</Y>
+        <LayerID>32</LayerID>
+        <ImageStates> 
+                <foreground>pgsb_ProgressbarTest_foreground.png</foreground>
+                <background>pgsb_ProgressbarTest_background.png</background>
+        </ImageStates>
+</Layer> 
+<Layer type='IMAGEBUTTON'> 
+        <ObjectName>ibtn_TestButton</ObjectName>
+        <ParentName></ParentName>
+        <X>854</X>
+        <Y>125</Y>
+        <LayerID>33</LayerID>
+        <ImageStates> 
+                <idle>ibtn_TestButton_idle.png</idle>
+                <pressed>ibtn_TestButton_pressed.png</pressed>
+                <hover>ibtn_TestButton_hover.png</hover>
+                <disabled>ibtn_TestButtondisabled.png</disabled>
+        </ImageStates>
+</Layer> 
+<Layer type='TEXT_LABEL'> 
+        <ObjectName>txt_KristenITC_24 TestLabel</ObjectName>
+        <ParentName></ParentName>
+        <X>174</X>
+        <Y>879.5</Y>
+        <LayerID>53</LayerID>
+        <LabelName>txt_TestLabel</LabelName>
+        <FontName>KristenITC_24</FontName>
+        <FontTextSize>24</FontTextSize>
+        <FontColor>0;0;0</FontColor>
+        <TheText>This is a test label.
+</TheText>
+</Layer>
+<Layer type='SPRITE'> 
+        <ObjectName>Input Label Background</ObjectName>
+        <ParentName></ParentName>
+        <X>1049</X>
+        <Y>885</Y>
+        <ImagePath>Input Label Background.png</ImagePath>
+        <LayerID>60</LayerID>
+        <LayerWidth>836</LayerWidth>
+        <LayerHeight>54</LayerHeight>
+</Layer> 
+<Layer type='INPUT_TEXT'> 
+        <ObjectName>inp_KristenITC_24 InputTestLabel</ObjectName>
+        <ParentName></ParentName>
+        <X>933.5</X>
+        <Y>885.5</Y>
+        <LayerID>59</LayerID>
+        <LabelName>inp_InputTestLabel</LabelName>
+        <FontName>KristenITC_24</FontName>
+        <FontTextSize>24</FontTextSize>
+        <FontColor>238.287295997143;247.000638842583;0</FontColor>
+        <TheText>This is a test input label. Click here to edit text.</TheText>
+</Layer>
+<Layer type='EmptyWidget'> 
+        <ObjectName>wdgt_EmptyWidget</ObjectName>
+        <ParentName></ParentName>
+        <X>1650.5</X>
+        <Y>128</Y>
+        <LayerID>63</LayerID>
+        <LayerWidth>367</LayerWidth>
+        <LayerHeight>184</LayerHeight>
+</Layer> 
+</npsd>
